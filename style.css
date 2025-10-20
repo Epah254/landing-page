@@ -1,0 +1,144 @@
+body{
+    display: flex;
+    flex-direction: column;
+    
+    margin: 0;
+}
+
+.parent-one,.footer{
+    background-color: #1F2937 ;
+    color: #eee;
+}
+.subclass{
+    margin: 150px;
+    margin-top: 0px;
+    margin-bottom: 2px;
+}
+
+.child{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    align-items: flex-start;
+    
+}
+
+#one{
+    display: flex;
+    align-self: flex-start;
+}
+
+
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    list-style: none;
+}
+
+#two{
+    display: flex;
+}
+
+.grandkid{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 0;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+button{
+    width: 25%;
+    padding: 16px;
+    border-radius: 10px;
+    background-color: #3882F6 ;
+    color: #eee;
+    border: white;
+}
+
+.parent-two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.second-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 900px;
+    gap: 20px;
+}
+
+.parent-three{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 60px;
+}
+
+#quote{
+    width: 700px;
+    font-weight: 300;
+    font-size: 36px;
+    color: #1F2937;
+    margin-bottom: 5px;
+}
+
+#comment{
+    align-self: center;
+    margin-top: 5px;
+    margin-left: 700px;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.parent-four{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+.foster{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6 ;
+    color: #eee;
+    border-radius: 10px;
+    width: 600px;
+    padding-right: 40px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    
+}
+.each img{
+    max-width: 250px;
+    max-height: 250px;
+}
+
+.each{
+    text-align: center;
+}
+
+#this{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin-bottom: 2px;
+}
+#click{
+    display: flex;
+    
+    justify-content: center;
+    border: 2px solid white;
+    width: 18%;
+}
